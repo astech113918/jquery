@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery form</title>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="form.js" ></script>
+    <link rel="stylesheet" href="form.css" type="text/css" />
+    <style>
+        
+     </style>
+        
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <div id="d1">
+           <form name="jqueryform" onsubmit="return validateform()">
+        <fieldset class="d2">
+            <legend >Registration :</legend>
+        <ul>
+            <li class="title">Who are you?</li>
+            <li class="field">
+                <label><sup>*</sup>First Name:</label></br>
+                <input id="first_name" class="req" type="text" /><br />
+                <label>Middle Name:</label></br>
+                <input id="middle_name"  type="text" /><br />
+                <label>Last Name:</label></br>
+                <input id="last_name"  type="text" /><br />
+                <label><sup>*</sup>Email:</label></br>
+                <input id="email" class="req" type="text" /><br />
+
+            </li>
+            <li class="title">Where are you?</li>
+            <li class="field">
+                <label>City:</label></br>
+                <input id="city" type="text" /><br />
+                <label><sup >*</sup>State:</label></br>
+                <input id="state" class="req" type="text" /><br /><label>Country:</label></br>
+                <input id="country"  type="text" /><br />
+            </li>
+            <li class="title"> What do you do?</li>
+            <li class="field">
+                <label><sup>*</sup>Occupation:</label></br>
+                <input id="occupation" class="req" type="text" /><br />
+                <label>Company:</label></br>
+                <input id="company"  type="text" /><br />
+                <label>Company location:</label></br>
+                <input id="location"  type="text" /><br />
+            </li>
+        </ul>
+        <input id="button" type="submit" value="submit " />
+        </fieldset>
+    </form>
+    </div>
+
+    <!-- <script>
+        $(document).ready(function(){
+    $('li.field').filter(':nth-child(n+4)').addclass('.hide');
+    $('ul').on('click','li.title',function(){
+        $(this).next().slideDown(200).siblings('li.field').slideUp(200);
+    })
+});
+    </script> -->
+</body>
+
+</html>

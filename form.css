@@ -1,0 +1,95 @@
+body{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    /* list-style: none; */
+    margin-bottom: 50px; 
+    background-image: url('gradient.png');
+}
+  
+     
+  
+
+div li{
+    list-style: none;
+}
+div li.field{
+    margin: 0;
+    padding: 1em 0;
+}
+li.title{
+    text-transform: capitalize;
+    margin-bottom: 2px;
+    margin-left: 40px;
+    width: 400px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    font-size: 35px;
+    line-height: 2cm;
+    background-color: #34495e;
+    color: white;
+    border-bottom: 1px solid cyan;
+    border-top: 1px solid white;
+    border-radius: 0px 30px 0px 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px 10px 10px black;
+}
+#button{
+    margin-bottom: 40px;
+    background-color: green;
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    border: 1px lightgreen solid;
+    border-radius: 0px 30px 0px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 5px 10px 10px black;
+}
+#button:hover{
+    background-color: lawngreen;
+    cursor: pointer;
+}
+
+.d2{
+    font-size: 30px;
+    color: red;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: pink;
+    border: 1px solid brown;
+    border-radius: 0px 60px 0px 60px;
+    box-shadow: 5px 10px 10px black;
+    font-family: 'cookie','cursive';
+}
+.hide{
+    display: none;
+}
+label{
+    color: black;
+    font-size: 25px;
+}
+sup{
+    color: red;
+    font-size: 20px;
+}
+input{
+    background-color: lightgray;
+    color: black;
+    font-size: 16px;
+    border: 1px solid  blueviolet;
+    border-radius: 25px;
+    height: 25px;
+}
+input:focus{
+    border: 1px #4cd137 solid;
+    box-shadow: 10px 10px 10px black;
+
+    background-color: lightgray;
+    width: 300px;
+
+}
+
